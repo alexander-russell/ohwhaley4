@@ -1,3 +1,12 @@
+#' Whale message maker
+#'
+#' @param what the message the whale says
+#'
+#' @returns a whale message
+#' @export
+#'
+#' @examples
+#' say("hello")
 say <- function(what){
   #Defining the whale ASCII
   whale = "\n            ------ \n           %s \n            ------ \n               \\\   \n                \\\  \n                 \\\
